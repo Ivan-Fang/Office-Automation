@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ivanfang.auth.mapper.SysUserMapper">
+
+    <!-- List<SysRole> getRoleListById(@Param("userId") Long userId);-->
+    <resultMap id="SysRoleResultMap" type="SysRole">
+        <id column="id" property="id" />
+        <result column="role_name" property="roleName"/>
+        <result column="role_code" property="roleCode" />
+        <result column="description" property="description" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+    <select id="getRoleListById" resultMap="SysRoleResultMap">
+        select sr.id, sr.role_name, sr.role_code, sr.description, sr.create_time, sr.update_time
+        from sys_user su
+             left join sys_user_role sur on su.id = sur.user_id
+             left join sys_role sr on sur.role_id = sr.id
+        where su.id = #{userId} and su.is_deleted = 0 and sr.is_deleted = 0 and sur.is_deleted = 0;
+    </select>
+
+</mapper>

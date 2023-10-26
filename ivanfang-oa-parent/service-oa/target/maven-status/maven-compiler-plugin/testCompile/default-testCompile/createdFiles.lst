@@ -1,0 +1,13 @@
+com\ivanfang\auth\activiti\ProcessTest01Basic.class
+com\ivanfang\auth\activiti\ProcessTest07ParallelGateway.class
+com\ivanfang\auth\activiti\Employee.class
+com\ivanfang\auth\activiti\MyListener.class
+com\ivanfang\auth\activiti\ProcessTest05CandidateUser.class
+com\ivanfang\auth\Demo02MPServiceTest.class
+com\ivanfang\code\CodeGet.class
+com\ivanfang\auth\activiti\ProcessTest02ActivateAndSuspend.class
+com\ivanfang\auth\Demo01MPMapperTest.class
+com\ivanfang\auth\MyTest.class
+com\ivanfang\auth\activiti\ProcessTest04Listener.class
+com\ivanfang\auth\activiti\ProcessTest06ExclusiveGateway.class
+com\ivanfang\auth\activiti\ProcessTest03UEL.class

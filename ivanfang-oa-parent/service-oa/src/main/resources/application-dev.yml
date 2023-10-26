@@ -1,0 +1,49 @@
+server:
+  port: 8805
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   # used for log
+  type-aliases-package: com.ivanfang.*.*
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ivanfang-oa
+    username: root
+    password: 123456
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    timeout: 1800000
+    password:
+    jedis:
+      pool:
+        max-active: 20
+        max-wait: -1
+        max-idle: 5
+        min-idle: 0
+  # activiti 預設登入帳密：kermit kermit
+  activiti:
+    # database-schema-update
+    #   false：預設值，表示資料庫表不變，但是如果版本不對或者缺失表會拋出異常（生產環境下使用）
+    #   true：若 activiti 相關表不存在，則自動在資料庫中創建 activiti 相關表（開發環境下使用）
+    #   create_drop：啟動時創建表，關閉時刪除表（測試環境下使用）
+    #   drop_create：啟動時先刪除原本的表，再創建新的表（不需要手動關閉引擎）
+    database-schema-update: true
+    # db-history-used
+    #   監測歷史表是否存在，activities7默認不開啟歷史表
+    db-history-used: true
+    # history-level
+    #   none：不保存任何歷史資料，流程執行效率最高
+    #   activity：只保存流程實例和流程行為
+    #   audit：預設值，在activity的基礎上，還保存全部的流程任務以及其屬性
+    #   full：在audit的基礎上，還保存其他全部流程相關的細節資料，包括流程參數等
+    history-level: full
+    # check-process-definitions
+    #   是否校驗流程文件，預設校驗 /resources 下 /process 資料夾的流程文件
+    check-process-definitions: true

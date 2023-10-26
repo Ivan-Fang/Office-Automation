@@ -1,0 +1,4 @@
+com\ivanfang\common\config\exception\MyExceptionHandler.class
+com\ivanfang\common\config\exception\MyException.class
+com\ivanfang\common\config\mp\MyBatisPlusConfig.class
+com\ivanfang\common\config\knife4j\Knife4jConfig.class

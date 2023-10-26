@@ -1,0 +1,7 @@
+com\ivanfang\security\custom\UserDetailsService.class
+com\ivanfang\security\filter\TokenLoginFilter.class
+com\ivanfang\security\filter\TokenAuthenticationFilter.class
+com\ivanfang\security\custom\LoginUserInfoHelper.class
+com\ivanfang\security\config\WebSecurityConfig.class
+com\ivanfang\security\custom\CustomMd5PasswordEncoder.class
+com\ivanfang\security\custom\CustomUser.class

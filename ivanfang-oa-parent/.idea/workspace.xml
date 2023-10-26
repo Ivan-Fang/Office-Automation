@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67493133-a2d0-4a51-8cdd-aedac3b11c6f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2Wb4Q2QbgNsl2wrUWIrjxdALuku" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/zenbook-14x/Desktop/Backend/project-office-automation/ivanfang-oa-parent/service-oa/src/test/java/com/ivanfang&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zenbook-14x/Desktop/Backend/project-office-automation/ivanfang-oa-parent/service-oa/target/classes/processes&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.18457031&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2793765&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8a604bca848cb439ecf3b1c0c25b4f2b&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zenbook-14x\Desktop\Backend\project-office-automation\ivanfang-oa-parent\service-oa\target\classes\processes" />
+      <recent name="C:\Users\zenbook-14x\Desktop\Backend\project-office-automation\ivanfang-oa-parent\service-oa\src\main\resources\process" />
+      <recent name="C:\Users\zenbook-14x\Desktop\Backend\project-office-automation\ivanfang-oa-parent\common\common-util\src\main\java\com\ivanfang\common\utils" />
+      <recent name="C:\Users\zenbook-14x\Desktop\Backend\ivanfang-oa-parent\model\src\main\java\com\ivanfang\vo" />
+      <recent name="C:\Users\zenbook-14x\Desktop\Backend\ivanfang-oa-parent\model\src\main\java\com\ivanfang" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zenbook-14x\Desktop\Backend\project-office-automation\ivanfang-oa-parent\service-oa\src\main\resources\com\ivanfang\process\mapper" />
+      <recent name="C:\Users\zenbook-14x\Desktop\Backend\project-office-automation\ivanfang-oa-parent\service-oa\src\main\resources\process" />
+      <recent name="C:\Users\zenbook-14x\Desktop\Backend\project-office-automation\ivanfang-oa-parent\common\common-util\src\main\java\com\ivanfang\common\result" />
+      <recent name="C:\Users\zenbook-14x\Desktop\Backend\project-office-automation\ivanfang-oa-parent\service-oa\src\main\resources\com\ivanfang\auth\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ivanfang" />
+      <recent name="com.ivanfang.auth" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceAuthApplication">
+    <configuration name="CodeGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ivanfang.code.CodeGet" />
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivanfang.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ivanfang.common.jwt.JwtHelper" />
+      <module name="common-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivanfang.common.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.integerToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivanfang.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivanfang.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.ivanfang.auth.MyTest" />
+      <option name="METHOD_NAME" value="integerToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.parseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivanfang.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivanfang.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.ivanfang.auth.MyTest" />
+      <option name="METHOD_NAME" value="parseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ivanfang.ServiceAuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivanfang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceAuthApplication" />
+        <item itemvalue="Application.JwtHelper" />
+        <item itemvalue="JUnit.MyTest.parseTest" />
+        <item itemvalue="Application.CodeGet" />
+        <item itemvalue="JUnit.MyTest.integerToString" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67493133-a2d0-4a51-8cdd-aedac3b11c6f" name="Changes" comment="" />
+      <created>1696987926197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696987926197</updated>
+      <workItem from="1696987927254" duration="5391000" />
+      <workItem from="1697005286448" duration="14927000" />
+      <workItem from="1697068971079" duration="6179000" />
+      <workItem from="1697090291204" duration="6316000" />
+      <workItem from="1697119176005" duration="3257000" />
+      <workItem from="1697158932700" duration="20198000" />
+      <workItem from="1697245873729" duration="10311000" />
+      <workItem from="1697272527058" duration="9520000" />
+      <workItem from="1697295781353" duration="2000" />
+      <workItem from="1697333060252" duration="20009000" />
+      <workItem from="1697507035831" duration="18389000" />
+      <workItem from="1697673050124" duration="51424000" />
+      <workItem from="1697934678221" duration="3981000" />
+      <workItem from="1697939349895" duration="13022000" />
+      <workItem from="1698288122707" duration="21988000" />
+      <workItem from="1698324089246" duration="7321000" />
+      <workItem from="1698335384736" duration="604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ivanfang.process.mapper.ProcessMapper">
+
+    <!-- Page<Process> selectPage(Page<Process> pageParam, @Param("vo") ProcessQueryVo processQueryVo) -->
+    <select id="selectPage" resultType="ProcessVo">
+        select p.id, p.process_code, p.user_id, p.process_template_id, p.process_type_id, p.title, p.description, p.form_values, p.process_instance_id, p.current_auditor, p.status, p.create_time, p.update_time,
+               p_temp.name as processTemplateName,
+               p_type.name as processTypeName,
+               u.name
+        from process p
+                 left join sys_user u on p.user_id = u.id
+                 left join process_template p_temp on p.process_template_id = p_temp.id
+                 left join process_type p_type on p.process_type_id = p_type.id
+        <where>
+            <if test="vo.keyword != null and vo.keyword != ''">
+                and (p.process_code like concat('%', #{vo.keyword}, '%') or
+                     p.title like concat('%', #{vo.keyword}, '%'))
+            </if>
+            <if test="vo.userId != null and vo.userId != ''">
+                and p.user_id = #{vo.userId}
+            </if>
+            <if test="vo.status != null and vo.status != ''">
+                and p.status = #{vo.status}
+            </if>
+            <if test="vo.createTimeBegin != null and vo.createTimeBegin != ''">
+                and p.create_time &gt;= #{vo.createTimeBegin}
+            </if>
+            <if test="vo.createTimeEnd != null and vo.createTimeEnd != ''">
+                and p.create_time &lt;= #{vo.createTimeEnd}
+            </if>
+        </where>
+    </select>
+
+</mapper>
