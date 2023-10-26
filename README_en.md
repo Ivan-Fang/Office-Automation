@@ -10,7 +10,7 @@
     
     * The staff side is responsible for allowing employees to apply for and approve office processes online.
 
-* We adopt front-end and back-end separate mode to develop this project. The front-end page is based on `vue-admin-template`, and we mainly implements the "back-end" and "front and back-end API" part.
+* We adopt front-end and back-end separate mode to develop this project. The front-end page is based on `vue-admin-template`, and we mainly focus on the "back-end" and "front and back-end API" part.
 
 * The technologies used in this project are as follows:
 
