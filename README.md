@@ -14,11 +14,11 @@
 
 * 本專案使用的技術如下：
 
-    * 基礎框架：`SpringBoot`
+    * 後端業務邏輯：`SpringBoot`
     
-    * 資料操作：`Spring`、`Spring MVC`、`MyBatis`、`MyBatis Plus`
+    * 資料庫操作：`MyBatis`、`MyBatis Plus`
 
-    * 資料庫管理系統：`MySQL`
+    * 資料庫管理：`MySQL`
 
     * 資料校驗：`Spring Security`、`JWT`（Json Web Token）
 
@@ -30,9 +30,21 @@
 
     * 依賴管理：`Maven`
 
-    * 前端框架：`Vue`、`Element UI`、`Axios`
+    * 前端框架：`Vue`、`Element Plus`、`Axios`
 
 * 本專案為尚硅谷[《雲尚辦公》](https://www.bilibili.com/video/BV1oM41177Jd/)的 Course Project。
+
+
+## 專案截圖
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/bc5c1f5d-bd6f-49af-8fa4-1b066805057d" width="600px">
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/96463490-5c74-45e7-8230-8b7f11da5eaa" width="600px">
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/85022133-ea9b-48a2-b0ac-aefe494150cd" width="600px">
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/c4b1c25e-19ac-47c9-9de7-26a970585fee" width="600px">
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/d2479f69-dbfc-4e2f-ae38-34bb477d49ff" width="600px"><br/>
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/2c70255b-1e50-49a8-ad2b-39a5dffa8120" height="300px">
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/4538005a-a0ee-431e-b1d0-36f7e048c2ec "height="300px">
+
+
 
 ## 細節說明
 
@@ -60,8 +72,8 @@
 
     * 執行後端程式（注意本專案使用 Java 8 進行開發，請確保執行環境一樣是 Java 8）
       ```
-      cd ivanfang-oa-parent/service-oa/target
-      java -jar service-oa.jar
+      cd ivanfang-oa-parent
+      mvn spring-boot:run
       ```
 
     * 執行前端程式（管理端）
@@ -71,7 +83,7 @@
       npm run dev
       ```
 
-    * 執行前端程式（員工端）
+    * 執行前端程式（員工端，注意本專案使用 Node.js 14 進行開發，請確保執行環境一樣是 Node.js 14）
       ```
       cd ivanfang-oa-web
       npm install
@@ -96,6 +108,17 @@
       ```
       http://localhost:8805/doc.html
       ```
+
+    * 如果想自定義流程的話記得啟動 Activiti，並將定義好的 .zip 檔上傳到管理端。
+      1. cd apache-tomcat-8.5.91/bin
+
+      2. 使用 startup.bat 或 startup.sh 啟動 tomcat
+
+      3. 開啟網址：http://localhost:8080/activiti-explorer
+
+      4. 使用預設帳號（ketmit）密碼（ketmit） 登入
+
+      5. 到 Processes → Model workspace → New model 創建自定義流程，並下載成 .zip 檔
 
 ## 文件說明
 
