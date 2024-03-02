@@ -34,6 +34,17 @@
 
 * This project is the Course Project of AtGuiGu ["雲尚辦公"](https://www.bilibili.com/video/BV1oM41177Jd/).
 
+
+## Screenshots
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/bc5c1f5d-bd6f-49af-8fa4-1b066805057d" width="600px">
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/96463490-5c74-45e7-8230-8b7f11da5eaa" width="600px">
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/85022133-ea9b-48a2-b0ac-aefe494150cd" width="600px">
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/c4b1c25e-19ac-47c9-9de7-26a970585fee" width="600px">
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/d2479f69-dbfc-4e2f-ae38-34bb477d49ff" width="600px"><br/>
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/2c70255b-1e50-49a8-ad2b-39a5dffa8120" height="300px">
+<img src="https://github.com/Ivan-Fang/Office-Automation-System/assets/40261483/4538005a-a0ee-431e-b1d0-36f7e048c2ec "height="300px">
+
+
 ## Technical Details
 
 We use the following technologies to complete this project:
